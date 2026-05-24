@@ -1,0 +1,8 @@
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/proxy"
+  to = "/.netlify/functions/proxy"
+  status = 200
+  force = true
